@@ -33,10 +33,11 @@ color:gold;
 #searchbar{
 background-color:rgb(68, 68, 68);
 border-radius:15px;
-height:60px;
+height:55px;
 box-shadow: black 2px 2px;
 position:relative;
-top:-13px;;
+top:-11px;
+padding-top:3px;
 }
 
 #searchinput{
@@ -60,9 +61,45 @@ box-shadow: black 2px 2px;
 
 #menubar{
 background-color:rgb(67, 124, 172);
-margin:20px;
+margin-top:12px;
 border-radius:7px;
-height:50px;
+height:55px;
+box-shadow: black 2px 2px;
+padding-left:50px;
+}
+
+#menubar a{
+color: white;
+font-size:1.7em;
+font-family:arial;
+position:relative;
+top:11px;
+margin-left:24px;
+}
+
+#navbox{
+text-align:center;
+color:gold;
+font-size:1.1em;
+font-family:arial;
+margin-top:60px;
+padding-right:670px;
+line-height:30px;
+}
+
+#navbox a{
+text-decoration:underline;
+color:white;
+}
+
+#subtitle{
+color:white;
+position:relative;
+top:-240px;
+margin-left:330px;
+text-align:center;
+width:580px;
+font-size:1.2em;
 }
 </style>
 </head>
@@ -80,9 +117,26 @@ height:50px;
 </div>
 </div>
 
-<div id="menubar"></div>
+<div id="menubar">
+<a href="">About</a>
+<a href="">Downloads</a>
+<a href="">Documentation</a>
+<a href="">Community</a>
+<a href="">News</a>
+<a href="">Events</a>
+</div>
 
+<div id="navbox">
+» <a href="#">Docs</a></li><br>
+» <a href="#">Audio/Visual Talks</a><br>
+» <a href="#">Begginer's Guide</a><br>
+» <a href="#">Developer's Guide</a><br>
+» <a href="#">PEP Index</a><br>
+» <a href="#">Python Books</a><br>
+» <a href="#">FAQ</a>
+</div>
 
+<p id="subtitle">First appearing in 1991, Python is the polar opposite of Perl in terms of readability. Python also supports a number of programming paradigms including object-oriented, imperative, and functional styles.  </p>
 
 </div>
 </body>
