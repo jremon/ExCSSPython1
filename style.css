@@ -1,0 +1,209 @@
+body{
+height:800px;
+}
+#maincanvas{
+background-color:rgb(36, 81, 118);
+       position:absolute;
+            top:0px;
+            left:0px;
+            width:970px;
+            height:550px;
+}
+
+#maincanvas2{
+background-color: rgba(50,113,168,1);
+            width:970px;
+            height:100px;
+position:relative;
+top:-100px;
+}
+
+#maincanvas2 p{
+display:inline-block;
+font-size:28px;
+margin-left:120px;
+color:lightblue;
+cursor: pointer;
+font-family:arial;
+margin-top:35px;
+}
+
+#logo{
+width:35%;
+margin-top:20px;
+margin-left:20px;
+
+}
+
+#upright{
+display:inline-block;
+position:relative;
+top:-40px;
+left:320px;
+}
+
+#textsize{
+padding-left:70px;
+color: white;
+
+}
+
+#textsize a{
+color:gold;
+
+}
+
+#searchbar{
+background-color:rgb(68, 68, 68);
+border-radius:15px;
+height:55px;
+box-shadow: black 2px 2px;
+padding-top:3px;
+}
+
+#searchinput{
+margin-top:12px;
+margin-left:42px;
+font-size:15px;
+width:55%;
+height:55%;
+text-align:center;
+color:gray;
+border:solid 2px gray;
+}
+
+#searchbutton{
+background-color:rgb(36, 81, 118);
+color:white;
+border-radius:5px;
+height:58%;
+box-shadow: black 2px 2px;
+}
+
+#menubar{
+background-color:rgb(67, 124, 172);
+margin-top:12px;
+border-radius:7px;
+height:35px;
+box-shadow: black 2px 2px;
+width:92%;
+margin-left:25px;
+padding-top:10px;
+padding-bottom:15px;
+text-align:center;
+}
+
+#menubar a{
+color: white;
+font-size:1.7em;
+font-family:arial;
+margin-left:24px;
+text-decoration:none;
+
+}
+
+#navbox{
+text-align:center;
+color:gold;
+font-size:1.1em;
+font-family:arial;
+margin-top:30px;
+margin-left:40px;
+padding-right:60px;
+line-height:30px;
+width:180px;
+display:inline-block;
+
+}
+
+#navbox a{
+text-decoration:underline;
+color:white;
+
+}
+
+#subtitle{
+color:white;
+margin-left:20px;
+text-align:center;
+width:620px;
+font-size:1.1em;
+display:inline-block;
+
+}
+
+
+#subsubtitlequote{
+color:white;
+position:relative;
+top:20px;
+font-size:1.35em;
+text-align:center;
+}
+
+#mastersubsubtitle{
+position:relative;
+top:-150px;
+left:70px;
+color:gold;
+padding-left:30px;
+font-style:italic;
+font-size:1.35em;
+text-align:center;
+line-height:7px;
+display:block;
+}
+
+
+
+.bluehr{
+height:4px;
+background-color:lightblue;
+color:lightblue;
+width:38%;
+display:inline-block;
+margin-left:78px;
+position:relative;
+top:-100px;
+}
+
+#corpus{
+margin-left:50px;
+width:91%;
+position:relative;
+top:-120px;
+
+}
+
+.corpustitle{
+width:32%;
+display:inline-block;
+margin-left:132px;
+font-weight:bold;
+font-size:1.25em;
+
+}
+
+.corpusp{
+width:45%;
+display:inline-block;
+margin-left:22px;
+font-size:1.25em;
+position:relative;
+top:-20px;
+text-align:center;
+}
+
+.blueme{
+color:#8888FF;
+cursor: pointer;
+
+}
+
+.bluea{
+display:block;
+color:#8888FF;
+margin-top:5px;
+cursor: pointer;
+
+}

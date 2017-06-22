@@ -1,143 +1,84 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<meta charset="UTF-8">
-<style>
-#maincanvas{
-background-color:rgb(36, 81, 118);
-width:970;
-}
+        <head>
+                <meta charset="UTF-8">
+                <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+                <div id="maincanvas">
 
-#logo{
-width:35%;
-margin-top:20px;
-margin-left:20px;
-}
+                                    <img id="logo" src="images\python.png">
 
-#upright{
-display:inline-block;
-padding-left:280px;
-position:relative;
-top:-40px;
-}
+                                    <div id="upright">
+                                            <p id="textsize">Text Size: <a href="#">Normal</a> | <a href="#">Large</a>
+                                            </p>
+                                            <div id="searchbar">
+                                                    <input id="searchinput" value="Search">
+                                                    <input type="button" id="searchbutton" value="GO">
+                                            </div>
+                                    </div>
 
-#textsize{
-padding-left:70px;
-color: white;
-}
+                            <div id="menubar">
+                                    <a href="">About</a>
+                                    <a href="">Downloads</a>
+                                    <a href="">Documentation</a>
+                                    <a href="">Community</a>
+                                    <a href="">News</a>
+                                    <a href="">Events</a>
+                            </div>
 
-#textsize a{
-color:gold;
-}
+                            <div id="navbox">
+                                    » <a href="#">Docs</a></li><br>
+                                    » <a href="#">Audio/Visual Talks</a><br>
+                                    » <a href="#">Begginer's Guide</a><br>
+                                    » <a href="#">Developer's Guide</a><br>
+                                    » <a href="#">PEP Index</a><br>
+                                    » <a href="#">Python Books</a><br>
+                                    » <a href="#">FAQ</a>
+                            </div>
+                            <div style="display:inline-block; vertical-align:top;">
+                                    <p id="subtitle">First appearing in 1991, Python is the polar opposite of Perl in terms of readability. Python also supports a number of programming paradigms including object-oriented, imperative, and functional styles.</p>
+                            </div>
 
-#searchbar{
-background-color:rgb(68, 68, 68);
-border-radius:15px;
-height:55px;
-box-shadow: black 2px 2px;
-position:relative;
-top:-11px;
-padding-top:3px;
-}
+                            <div id="mastersubsubtitle">
+                                    <p id="subsubtitle">Beautiful is better than ugly;</p>
+                                    <p id="subsubtitle">Explicit is better than implicit;</p>
+                                    <p id="subsubtitle">Simple is better than complex;</p>
+                                    <p id="subsubtitle">Complex is better than complicated;</p>
+                                    <p id="subsubtitle">Readability counts;</p>
+                                    <p id="subsubtitlequote">The Zen of Python</p>
+                            </div>
 
-#searchinput{
-margin-top:12px;
-margin-left:42px;
-font-size:15px;
-width:55%;
-height:55%;
-text-align:center;
-color:gray;
-border:solid 2px gray;
-}
+                            <hr class="bluehr"><hr class="bluehr">
 
-#searchbutton{
-background-color:rgb(36, 81, 118);
-color:white;
-border-radius:5px;
-height:58%;
-box-shadow: black 2px 2px;
-}
+                            <div id="corpus">
+                                    <div class="corpustitle">Getting Started</div>
+                                    <p class="corpustitle">Applications</p>
 
-#menubar{
-background-color:rgb(67, 124, 172);
-margin-top:12px;
-border-radius:7px;
-height:55px;
-box-shadow: black 2px 2px;
-padding-left:50px;
-}
+                                    <div class="corpusp">
+                                            We are happy to guide you through the amazing process of mastering Python,
+                                             the ultimate coding language. What are you waiting for?
+                                            <span class="bluea">· Begginer's Guide</span>
+                                            <span class="bluea">· Begginer's Guide Two</span>
+                                    </div>
+                                    <div class="corpusp">
+                                            Python is great <span class="blueme">basically because</span> of the very fact that it allows you to code virtually within any imaginable environment you'd be presented to.
+                                            <span class="bluea">· Begginer's Guide</span>
+                                            <span class="bluea">· Begginer's Guide Two</span>
+                                    </div>
 
-#menubar a{
-color: white;
-font-size:1.7em;
-font-family:arial;
-position:relative;
-top:11px;
-margin-left:24px;
-}
+                            </div>
+                            <div id="maincanvas2">
+                                    <p>New Materials</p>
+                                    <p>Excercises</p>
+                                    <p>About Us</p>
+                            </div>
 
-#navbox{
-text-align:center;
-color:gold;
-font-size:1.1em;
-font-family:arial;
-margin-top:60px;
-padding-right:670px;
-line-height:30px;
-}
+                    </div>
 
-#navbox a{
-text-decoration:underline;
-color:white;
-}
 
-#subtitle{
-color:white;
-position:relative;
-top:-240px;
-margin-left:330px;
-text-align:center;
-width:580px;
-font-size:1.2em;
-}
-</style>
-</head>
-<body>
-<div id="maincanvas">
 
-<img id="logo" src="images\python.png">
 
-<div id="upright">
-<p id="textsize">Text Size: <a href="#">Normal</a> | <a href="#">Large</a>
-</p>
-<div id="searchbar">
-<input id="searchinput" value="Search">
-<input type="button" id="searchbutton" value="GO">
-</div>
-</div>
-
-<div id="menubar">
-<a href="">About</a>
-<a href="">Downloads</a>
-<a href="">Documentation</a>
-<a href="">Community</a>
-<a href="">News</a>
-<a href="">Events</a>
-</div>
-
-<div id="navbox">
-» <a href="#">Docs</a></li><br>
-» <a href="#">Audio/Visual Talks</a><br>
-» <a href="#">Begginer's Guide</a><br>
-» <a href="#">Developer's Guide</a><br>
-» <a href="#">PEP Index</a><br>
-» <a href="#">Python Books</a><br>
-» <a href="#">FAQ</a>
-</div>
-
-<p id="subtitle">First appearing in 1991, Python is the polar opposite of Perl in terms of readability. Python also supports a number of programming paradigms including object-oriented, imperative, and functional styles.  </p>
-
-</div>
-</body>
+                </div>
+        </body>
 </html>
